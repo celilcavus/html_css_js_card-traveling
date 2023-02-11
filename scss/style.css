@@ -1,0 +1,115 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(/images/abandoned-1866567_1920.jpg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  color: white;
+  text-align: center;
+  padding: 25px 10px 10px 25px;
+  margin: 0 20px 0 20px;
+  font-weight: 100;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  opacity: 0.9;
+}
+.card h1 {
+  font-weight: 500;
+}
+.card a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.card a:hover {
+  border-bottom: 1px solid white;
+}
+.card li {
+  margin-top: 1.5rem;
+}
+.card p {
+  text-transform: capitalize;
+  font-variant: 10px;
+  line-height: 35px;
+  padding: 0 10px 0 10px;
+}
+.card i {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.card-1 {
+  background-color: lightsalmon;
+}
+
+.card-2 {
+  background-color: #978bb7;
+}
+
+.card-3 {
+  background-color: lightslategray;
+}
+
+.bg-dark {
+  background-color: #333333;
+  padding: 40px;
+  color: white;
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .card {
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    padding: 10px 5px 5px 10px;
+    margin: 10px 5px 0 5px;
+  }
+  .card li {
+    margin-top: 1.5rem;
+  }
+  .card p {
+    text-transform: capitalize;
+    font-variant: 5px;
+    line-height: 25px;
+    padding: 0 10px 0 10px;
+  }
+  .card i {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
